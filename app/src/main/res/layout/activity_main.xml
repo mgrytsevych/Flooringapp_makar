@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room width:"
+        android:id="@+id/textViewWidth"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+    <EditText
+        android:id="@+id/editTextWidth"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="enter the width of the room"
+        android:inputType="numberDecimal"
+        android:textSize="14sp">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Room length:"
+        android:id="@+id/textViewLength"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+    <EditText
+        android:id="@+id/editTextLength"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="enter the length of the room"
+        android:inputType="numberDecimal"
+        android:textSize="14sp">
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Result"
+        android:id="@+id/btnResults"
+        android:onClick="onClickResult" />
+</LinearLayout>
